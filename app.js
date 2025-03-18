@@ -103,6 +103,8 @@ function sortearParticipantes() {
     }
     mensaje += "</ul>";
 
-    resultado.innerHTML = mensaje;*/
+    resultado.innerHTML = mensaje;
+
+    juegoIniciado = true;*/
 
 }
