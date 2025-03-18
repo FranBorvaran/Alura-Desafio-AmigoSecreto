@@ -3,7 +3,7 @@
 // Juego de amigo secreto
 
 
-// Variables globales
+// Configuración general
 let participantes = [];
 let juegoIniciado = false;
 
@@ -11,7 +11,6 @@ let juegoIniciado = false;
 // CÓDIGO PARA LIMPIAR EL NOMBRE DE CARACTERES ESPECIALES Y ESPACIOS
 function limpiarNombre(nombre) {
     return nombre.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
-
 }
 
 // CÓDIGO PARA REINICIAR EL JUEGO
@@ -21,6 +20,9 @@ function reiniciarJuego() {
     document.getElementById("lista-participantes").innerHTML = "";
     document.getElementById("resultado").innerHTML = "";
 }
+
+
+// Lógica Principal del Programa
 
 // CÓDIGO PARA AGREGAR PARTICIPANTES
 function agregarParticipantes() {
