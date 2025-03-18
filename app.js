@@ -72,7 +72,7 @@ function sortearParticipantes() {
         return;
     }
 
-    // ESTE CÓDIGO ASIGNA UN GANADOR DEL SORTEO   
+    // CÓDIGO ASIGNA UN GANADOR DEL SORTEO   
     let indiceAleatorio = Math.floor(Math.random() * participantes.length);
     let ganador = participantes[indiceAleatorio];
 
@@ -81,7 +81,7 @@ function sortearParticipantes() {
     juegoIniciado = true;
 
 
-    //  CON ESTE CÓDIGO EL JUEGO ASIGNA UN PARTICIPANTE A OTRO, SIN REPETIR.
+    // CÓDIGO PARA ASIGNAR AMIGO SECRETO SIN REPETIR
     /*let asignaciones = [...participantes]; 
     let valido = false;
 
